@@ -1,0 +1,6 @@
+pavani=[123,456,789,963,852,741,159,951,753]
+highest=pavani[0]
+for i in range(1,len(pavani)):
+    if (pavani[i]>highest):
+        highest=pavani[i]
+print(highest)
