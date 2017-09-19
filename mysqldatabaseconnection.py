@@ -3,7 +3,7 @@ from peewee import *
 
 db = MySQLDatabase('databasename', user='username', passwd='password')
 
-class Book(peewee.Model):
+class Empdetails(peewee.Model):
     empname = peewee.CharField()
     designation = peewee.TextField()
 
