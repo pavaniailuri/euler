@@ -4,8 +4,8 @@ from peewee import *
 db = MySQLDatabase('databasename', user='username', passwd='password')
 
 class Book(peewee.Model):
-    author = peewee.CharField()
-    title = peewee.TextField()
+    empname = peewee.CharField()
+    designation = peewee.TextField()
 
     class Meta:
         database = db
