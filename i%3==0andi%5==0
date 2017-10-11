@@ -1,0 +1,10 @@
+for i in xrange(1,101):
+  if i%3==0 and i%5==0:
+    print "Both conditions saticified "
+  elif i%3==0:
+    print "3 mulpiple"
+   elif i%5==0:
+    print "5 multiple"
+   else:
+    print i
+   
